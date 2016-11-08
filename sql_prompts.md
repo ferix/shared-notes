@@ -49,3 +49,8 @@ them to finish before it can execute the outer query.
 
     Without using a sub-query, select only the 5 countries that have
     exactly 6 cities in them.
+
+1. [Filters] Window function
+
+    In one query (sub-queries are allowed, but no unions), list only
+    the top 5 most populous cities for both the UK and USA.
