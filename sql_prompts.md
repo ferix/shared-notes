@@ -27,3 +27,7 @@ them to finish before it can execute the outer query.
     Find the cities where the city's population is larger than **its own**
 country's population. (Hint: it's not a trick question; there are 2)
 
+1. [Aggregates] Filtering after a group-by
+
+    Without using a sub-query, find the 5 countries that have exactly 6 cities
+    in them.
