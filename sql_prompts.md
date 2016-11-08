@@ -27,6 +27,12 @@ them to finish before it can execute the outer query.
     Select the 4 cities that have a GNP per capita (GNP/population)
     greater than 0.035.
 
+1. [Filters] Sub-query filtering
+
+    In one query (sub-queries are allowed, but no unions), select
+    the language with the longest spelling and count how many letters
+    it takes to spell out that language.
+
 1. [Joins] Join conditions
    
     Select only the cities where the city's population is larger than
