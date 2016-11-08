@@ -24,7 +24,7 @@ them to finish before it can execute the outer query.
 
 1. [Filters] On-the-fly filtering
 
-    Select the 4 cities that have a GNP per capita (GNP/population)
+    Select the 4 countries that have a GNP per capita (GNP/population)
     greater than 0.035.
 
 1. [Filters] Sub-query filtering
@@ -36,14 +36,8 @@ them to finish before it can execute the outer query.
 1. [Joins] Join conditions
    
     Select only the cities where the city's population is larger than
-    **its own** country's population. (Hint: it's not a trick question;
-    there are 2)
-
-1. [Joins,Aggregates,Filters] Selecting only un-joined data
-
-    Without using a sub-query, find the 6 countries that don't have a
-    corresponding language and group them by continent and list how
-    many countries are in each continent.
+    **its own** country's population without using a `WHERE` clause.
+    (Hint: it's not a trick question; there are 2)
 
 1. [Aggregates,Filters] Filtering after a group-by
 
@@ -53,4 +47,12 @@ them to finish before it can execute the outer query.
 1. [Filters] Window function
 
     In one query (sub-queries are allowed, but no unions), list only
-    the top 5 most populous cities for both the UK and USA.
+    the top 5 most populous cities for **both** the UK **and** USA.
+    (This means there should be 10 rows in the final table)
+
+1. [Joins,Aggregates,Filters] Selecting only un-joined data
+
+    Without using a sub-query, find the 6 countries that don't have a
+    corresponding language and group them by continent and list how
+    many countries are in each continent.
+
