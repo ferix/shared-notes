@@ -22,6 +22,11 @@ them to finish before it can execute the outer query.
 
 # Prompts
 
+1. [Filters] On-the-fly filtering
+
+    Select the 4 cities that have a GNP per capita (GNP/population)
+    greater than 0.035.
+
 1. [Joins] Join conditions
    
     Select only the cities where the city's population is larger than
