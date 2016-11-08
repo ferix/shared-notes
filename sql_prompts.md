@@ -21,3 +21,9 @@ the computation engine has to execute all sub-queries first and wait for
 them to finish before it can execute the outer query.
 
 # Prompts
+
+1. [Joins] Join conditions
+   
+    Find the cities where the city's population is larger than **its own**
+country's population. (Hint: it's not a trick question; there are 2)
+
