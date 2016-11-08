@@ -39,6 +39,12 @@ them to finish before it can execute the outer query.
     **its own** country's population. (Hint: it's not a trick question;
     there are 2)
 
+1. [Joins,Aggregates,Filters] Selecting only un-joined data
+
+    Without using a sub-query, find the 6 countries that don't have a
+    corresponding language and group them by continent and list how
+    many countries are in each continent.
+
 1. [Aggregates,Filters] Filtering after a group-by
 
     Without using a sub-query, select only the 5 countries that have
